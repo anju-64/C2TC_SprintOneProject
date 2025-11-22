@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/admins")
-@CrossOrigin(origins = "*") // allows frontend to connect easily
+@CrossOrigin(origins = "http://localhost:4200") // allows frontend to connect easily
 public class AdminController {
 
     @Autowired
